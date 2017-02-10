@@ -3,8 +3,5 @@ MODULE main
 VAR
   b : boolean;
 
-ASSIGN
-  next(b) := {FALSE, TRUE};
-
 LTLSPEC
   G F b
